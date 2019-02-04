@@ -1,4 +1,10 @@
-.idea
+# Ignore Gradle project-specific cache directory
 .gradle
-*.iml
+
+# Ignore Gradle build output directory
 build
+
+
+# IDEA
+*.iml
+.idea
