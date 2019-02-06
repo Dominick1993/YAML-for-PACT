@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Dominick1993/YAML-for-Pact.svg?branch=master)](https://travis-ci.org/Dominick1993/YAML-for-Pact)
+
 # YAML for Pact
 
 You can now write [pact.io](https://pact.io/) contracts in YAML format.
