@@ -9,3 +9,6 @@ build
 *.iml
 .idea
 out
+
+# Logs
+logs
