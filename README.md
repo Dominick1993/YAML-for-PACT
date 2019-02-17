@@ -6,6 +6,28 @@ You can now write [pact.io](https://pact.io/) contracts in YAML format.
 
 YAML description should also contain the versions of client and producer, so that it can be automatically uploaded with correct tags.
 
+## How to use
+
+The converter provides a simple CLI with following usage:
+```
+usage: YAML for Pact
+ -d,--destination <destinationDirectory>   Destination directory for
+                                           converted files
+ -h,--help                                 Prints help
+ -r,--recursive                            Use for recursive traversal of
+                                           source directory
+ -s,--source <sourceDirectory>             Source directory containing
+                                           YAML Pact files
+```
+
+
+## How to build
+
+Just execute this job, and you will get an executable JAR in the build directory
+```bash
+./gradlew clean build
+```
+
 ## Supported YAML example
 
 ```yaml
